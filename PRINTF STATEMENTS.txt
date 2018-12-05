@@ -1,0 +1,9 @@
+http://processors.wiki.ti.com/index.php/Printf_support_in_compiler
+http://processors.wiki.ti.com/index.php/Printf_support_for_MSP430_CCSTUDIO_compiler
+
+msp430 linker > file linker> heap> 0x400
+msp430> prop> c++ build> settings> file search path> add this
+
+"${MSP430_CG_ROOT}/bin/cl430" --printf_support=minimal -z 
+
+ Note the location of the setting is now under Compiler->Advanced Options->Language Options
